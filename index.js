@@ -16,7 +16,8 @@ app.use(
   cors({
     origin: [
       "http://192.168.0.120:5173",
-      "http://localhost:5173"
+      "http://localhost:5173",
+      "https://portfolio-api-nu-drab.vercel.app"
     ],
     methods: ["GET", "POST", "HEAD", "PUT", "PATCH", "DELETE"],
     credentials: true,
